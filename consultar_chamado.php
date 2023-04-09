@@ -6,7 +6,7 @@
     <title>App Help Desk</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="assets/css/style.css">
     <style>
       .card-consultar-chamado {
         padding: 30px 0 0 0;
@@ -16,13 +16,18 @@
     </style>
   </head>
 
-  <body>
+  <body class="bg-dark">
 
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-Light">
       <a class="navbar-brand" href="#">
         <img src="assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        App Help Desk
+        <span class="span-logo">App Help Desk</span>
       </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link  text-danger" href="logoff.php">SAIR</a>
+        </li>
+      </ul>
     </nav>
 
     <div class="container">    
@@ -56,7 +61,7 @@
 
               <div class="row mt-5">
                 <div class="col-6">
-                  <button class="btn btn-lg btn-warning btn-block" type="submit">Voltar</button>
+                  <a class="btn btn-lg btn-warning btn-block" href="home.php">Voltar</a>
                 </div>
               </div>
             </div>

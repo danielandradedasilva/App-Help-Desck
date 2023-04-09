@@ -6,7 +6,7 @@
     <title>App Help Desk</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+      <link rel="stylesheet" href="assets/css/style.css">i
     <style>
       .card-abrir-chamado {
         padding: 30px 0 0 0;
@@ -16,13 +16,18 @@
     </style>
   </head>
 
-  <body>
+  <body class="bg-dark">
 
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-Light"  style="margin-top: -24px;">
       <a class="navbar-brand" href="#">
         <img src="assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        App Help Desk
+        <span class="span-logo">App Help Desk</span>
       </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link  text-danger" href="logoff.php">SAIR</a>
+        </li>
+      </ul>
     </nav>
 
     <div class="container">    
@@ -61,7 +66,7 @@
 
                     <div class="row mt-5">
                       <div class="col-6">
-                        <button class="btn btn-lg btn-warning btn-block" type="submit">Voltar</button>
+                        <a class="btn btn-lg btn-warning btn-block" href="home.php">Voltar</a>
                       </div>
 
                       <div class="col-6">
@@ -76,5 +81,6 @@
           </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
