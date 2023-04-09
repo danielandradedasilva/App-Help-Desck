@@ -8,7 +8,9 @@ $usuarioAutenticado = false;
 //usuarios do sistema
 $usuarioApp = [
 ['email' => 'adm@teste.com.br', 'senha' => '123456'],
-['email' => 'user@teste.com.br', 'senha' => 'abcd']
+['email' => 'user@teste.com.br', 'senha' => 'abcd'],
+['email' => 'danny83910@gmail.com', 'senha' => 'Daniel83'],
+['email' => 'gustavo@gmail.com', 'senha' => '1234']
 ];
 
 foreach ($usuarioApp as $user) {

@@ -1,0 +1,3 @@
+Titulo->Notebook não liga#Categoria->Hardware#Descrição->tento ligar ...
+Titulo->Problema na impressora#Categoria->Impressora#Descrição->Não está imprimindo
+Titulo->Problema na impressora#Categoria->Impressora#Descrição->gjhghdsljkdhjksldns
